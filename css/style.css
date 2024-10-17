@@ -1,0 +1,222 @@
+@import url("https://fonts.cdnfonts.com/css/inter");
+
+/* Cores
+Links do Menu no Topo, texto acima do valor, texto em baixo das fotos: #505050
+Botão, R$ valor, fundo da imagem e etc: #2E68FF
+Títulos maiores: #040315
+Fundo do rodapé: #1A1A1A
+*/
+
+/* Tamanho das fontes 
+Boat Stone Bluetooth Speaker - 54px
+Desfrute de uma conectividade perfeita com a mais recente tecnologia - 64px
+Valor, preço - 64px
+Bluetooth 5.3 - 20px
+Textos e parágrafos - 18px
+Itens do menu - 16px
+Leve sua música para qualquer lugar com este alto-falante compacto e leve - 54px
+*/
+
+* {
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	font-family: "Inter", sans-serif;
+}
+
+.header-container {
+	margin-left: 10%;
+	width: 100%;
+	position: relative;
+	left: 1%;
+}
+
+.header-inner {
+	display: flex;
+	justify-content: space-between;
+	width: 80%;
+	align-items: center;
+}
+
+.nav-menu ul {
+	display: flex;
+}
+
+.nav-menu ul li {
+	display: flex;
+	padding: 20px;
+}
+
+.nav-menu ul li a {
+	text-decoration: none;
+	color: gray;
+	font-family: "Inter", sans-serif;
+}
+
+.section-product {
+	margin-left: 11%;
+	margin-top: 84px;
+}
+
+.product-container {
+	display: flex;
+	align-items: center;
+}
+
+.product-image {
+	width: 400px;
+}
+
+.product-details {
+	margin-left: 20%;
+}
+
+.image-product {
+	width: 100%;
+}
+
+.product-name {
+	position: relative;
+	font-size: 40px;
+	left: 0%;
+	top: -130px;
+}
+
+.product-description {
+	position: relative;
+	left: 0%;
+	top: -100px;
+	color: #7F7F7F;
+}
+
+.product-price {
+	color: #2E68FF;
+	font-size: 50px;
+}
+
+.buy-now-button {
+	background-color: #2E68FF;
+	color: white;
+	border: none;
+	width: 45%;
+	height: 40px;
+	border-radius: 3px;
+	position: relative;
+	top: 40px;
+}
+
+.spacer {
+	padding: 50px;
+}
+
+.feature-bluetooth {
+	color: #2E68FF;
+}
+
+.feature-text-container {
+	text-align: center;
+}
+
+.feature-description {
+	text-align: center;
+	font-size: 50px;
+	position: relative;
+	top: 20px;
+}
+
+.images-row {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	width: 80%;
+	left: 10%;
+	position: relative;
+	top: 50px;
+}
+
+.text-row {
+	display: flex;
+	align-items: center;
+	width: 80%;
+	left: 10%;
+	position: relative;
+	top: 50px;
+}
+
+.feature-waterproof {
+	margin-left: 5%;
+	color: #7F7F7F;
+}
+
+.feature-stereo {
+	margin-left: 22%;
+	color: #7F7F7F;
+}
+
+.feature-portable {
+	margin-left: 24%;
+	color: #7F7F7F;
+}
+
+.promo-section {
+	background-color: #2E68FF;
+	width: 80%;
+	margin-left: 10%;
+	height: 80vh;
+}
+
+.promo-content {
+	position: relative;
+	display: flex;
+	width: 80%;
+	margin-left: 10%;
+	top: 10%;
+}
+
+.promo-text {
+	position: relative;
+	margin-left: 7%;
+}
+
+.promo-headline {
+	color: white;
+	font-size: 45px;
+	position: relative;
+	top: 15%;
+}
+
+.promo-subtext {
+	color: white;
+	position: relative;
+	top: 35%;
+}
+
+footer {
+	background-color: #252525;
+	padding: 3%;
+}
+
+.footer-container {
+	display: flex;
+	justify-content: space-between;
+	width: 80%;
+	align-items: center;
+	margin-left: 10%;
+}
+
+.footer-nav ul {
+	display: flex;
+}
+
+.footer-nav ul li {
+	display: flex;
+	padding: 20px;
+}
+
+.footer-nav ul li a {
+	text-decoration: none;
+	color: rgb(255, 255, 255);
+	font-family: "Inter", sans-serif;
+}
